@@ -572,10 +572,10 @@ body {
   display: inline-block;
   float: left;
   margin-right: 20px;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-repeat: no-repeat;
-  background-size: 300px 300px;
+  background-size: 200px 200px;
   border-radius: 5px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -606,7 +606,7 @@ body {
 #header #nav ul li {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 15px;
+  margin-right: 10px;
   border-right: 1px dotted #5bac4a;
 }
 #header #nav ul .icon {
@@ -625,8 +625,8 @@ body {
 }
 @media screen and (max-width: 480px) {
   #header #title {
-    padding-top: 134px;
-    padding-bottom: 134px;
+    padding-top: 84px;
+    padding-bottom: 84px;
   }
   #header #nav ul a:hover {
     background: none;
@@ -645,7 +645,7 @@ body {
   }
   #header #nav li:not(:first-child) {
     padding-top: 1rem;
-    padding-left: 320px;
+    padding-left: 220px;
     font-size: 1rem;
   }
 }
@@ -1181,7 +1181,7 @@ article .content .caption {
 #footer li {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 15px;
+  margin-right: 10px;
   border-right: 1px solid #4a4a4a;
 }
 #footer li a {
